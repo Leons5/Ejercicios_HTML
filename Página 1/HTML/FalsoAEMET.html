@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <title>Falso AEMET</title>
+        <meta charset="Unicode">
+
+    </head>
+    <body>
+
+        <h1>Busqueda AEMET Escrita</h1>
+        <br>
+
+        <form method="GET" action="http://www.aemet.es/es/buscador" target="_blank">
+            <label for="Busc">¿Que quieres buscar?</label><br>
+            <input type="text" name="str" placeholder="Ej: Fuenlabrada" id="Busc">
+            <br><br>
+            <input type="submit" value="Buscar">
+        </form>
+
+        <br>
+
+        <h1>Busqueda AEMET por Radio Button</h1>
+        <br>
+
+        <form method="GET" action="http://www.aemet.es/es/buscador" target="_blank">
+            <p>Selecciona Ciudad:</p>
+            <input type="radio" name="str" id="Arroyo" value="Arroyomolinos">
+                <label for="Arroyo">Arroyomolinos</target>
+            <br>
+            <input type="radio" name="str" id="Most" value="Mostoles">
+                <label for="Most">Mostoles</target>
+            <br>
+            <input type="radio" name="str" id="Fuenla" value="Fuenlabrada">
+                <label for="Fuenla">Fuenlabrada</target>
+            <br>
+            <input type="radio" name="str" id="Humanes" value="Humanes de Madrid">
+                <label for="Humanes">Humanes de Madrid</label>
+            <br>
+            <br><input type="submit" value="Buscar">
+        </form>
+
+    </body>
+</html>
