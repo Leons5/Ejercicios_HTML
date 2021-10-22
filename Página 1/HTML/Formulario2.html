@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Formulario2</title>
+    <meta charset="Unicode">
+
+</head>
+<body>
+
+    <h1>Escriba sus datos</h1>
+    <form method="POST" action="http://formadorestic.com/canyaveral/procesa.php">
+        <label for="name">Escriba su nombre: </label>
+        <input type="text" id="name" name="nombre" placeholder="Ej: David">
+            <br>
+        <label for="age">Escriba su edad: </label>
+        <input type="number" id="age" name="edad" placeholder="Ej: 35">
+            <br>
+        <p>Marque su sexo: </p>
+        <input type="radio" id="masc" name="sexo" value="Masculino">
+            <label for="masc">Masculino</label>
+            <br>
+        <input type="radio" id="fem" name="sexo" value="Femenino">
+            <label for="fem">Femenino</label>
+            <br>
+        <input type="radio" id="edad" name="sexo" value="Otro">
+            <label for="edad">Otro</label>
+            <br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
